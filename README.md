@@ -4,9 +4,12 @@
 ¿Are you tired of install the same hacking tools in every system different of kali linux? This tool is for you xD
 
 This is a custom hacking toolkit for pentesting and red team.
-
 This repo automate the installation of hacking tools, from system packages, github releases, scripts, etc.
+Created for ubuntu and debian systems.
+
 You could fork this project and custom your own arsenal too.
+
+> By default this is a hacking tools repo, but you can add any resource that you want.
 
 This create four main folder:
 
@@ -16,8 +19,6 @@ Directory            | Description
 /usr/share/wordlists | Wordlists
 /usr/share/releases  | Releases (Decompressed and installed)
 /usr/share/binaries  | Tools for install in victim systems
-
-> By default this is a hacking tools repo, but you can add any resource that you want.
 
 **Any contribution of cool tools are welcome :sparkles:**
 
