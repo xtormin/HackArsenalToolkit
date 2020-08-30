@@ -26,6 +26,7 @@ Directory            | Description
 ```
 bash hackarsenal.sh
 ```
+![Script execution](/images/script_execution.png)
 
 # TODO
 - [ ] Categorize tools and resources
