@@ -8,10 +8,14 @@ This repo automate the installation of hacking tools, from system packages, gith
 You could fork this project and custom your own arsenal too.
 
 This create four main folders:
-|+| /usr/share/tools - Tools from github
-|+| /usr/share/wordlists - Wordlists
-|+| /usr/share/releases - Releases (Decompressed and installed)
-|+| /usr/share/binaries - Tools for install in victim systems
+
+  |+| /usr/share/tools - Tools from github
+
+  |+| /usr/share/wordlists - Wordlists
+
+  |+| /usr/share/releases - Releases (Decompressed and installed)
+
+  |+| /usr/share/binaries - Tools for install in victim systems
 
 By default this is a hacking tools repo, but you can add any resource that you want.
 
