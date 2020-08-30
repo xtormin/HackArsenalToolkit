@@ -1,7 +1,7 @@
 ![GitHub Header](/images/hackarsenal.png)
 # Hacking Toolkit Arsenal Setup
 
-¿Are you tired of install the same hacking tools in every system different of kali linux? This tool is for you xD
+Are you tired of install the same hacking tools in every system different of kali linux? This tool is for you xD
 
 This is a custom hacking toolkit for pentesting and red team.
 This repo automate the installation of hacking tools, from system packages, github releases, scripts, etc.
