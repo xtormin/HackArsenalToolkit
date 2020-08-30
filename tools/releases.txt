@@ -1,0 +1,3 @@
+OJ/gobuster,gobuster-linux-amd64
+michenriksen/aquatone,aquatone_linux_amd64
+bettercap/bettercap,bettercap_linux_amd64_

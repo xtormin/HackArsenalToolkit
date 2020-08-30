@@ -1,0 +1,3 @@
+https://portswigger.net/burp/releases/download?product=community&version=2020.8.1&type=Linux
+https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb
+https://raw.githubusercontent.com/killswitch-GUI/SimplyEmail/master/setup/oneline-setup.sh

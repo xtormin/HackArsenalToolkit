@@ -1,0 +1,7 @@
+https://github.com/danielmiessler/SecLists.git
+https://github.com/kennyn510/wpa2-wordlists.git
+https://github.com/jeanphorn/wordlist.git
+https://github.com/govolution/betterdefaultpasslist.git
+https://github.com/Dormidera/WordList-Compendium.git
+https://github.com/kaonashi-passwords/Kaonashi.git
+https://github.com/FlameOfIgnis/Pwdb-Public.git
