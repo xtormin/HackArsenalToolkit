@@ -13,7 +13,7 @@ banner(){
 ▒█▀▀█ █▄▄█ █░░     ▒█▄▄█ █▄▄▀ ▀▀█ █▀▀ █░░█ █▄▄█ █░░ 
 ▒█░▒█ ▀░░▀ ▀▀▀     ▒█░▒█ ▀░▀▀ ▀▀▀ ▀▀▀ ▀░░▀ ▀░░▀ ▀▀▀
 
-Github: https://github.com/j4ckmln/hackarsenal
+Github: https://github.com/j4ckmln/hackarsenaltoolkit
 By: @j4ckmln
 
 	EOF
