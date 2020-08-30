@@ -20,11 +20,11 @@ By default this is a hacking tools repo, but you can add any resource that you w
 bash hackarsenal.sh
 ```
 
-# Do you want buy me a coffee?
-https://paypal.me/j4ckmln
-
 # TODO
 * Categorize tools and resources
 * Add more tools, binaries and wordlists
 * Windows, arch, ... Toolkit Arsenal version
 * Clean and improve code (this is a little spaguetti xD)
+
+### Do you want buy me a coffee?
+https://paypal.me/j4ckmln
