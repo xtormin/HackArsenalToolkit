@@ -2,12 +2,17 @@ git
 python3
 python3-pip
 python2.7
+net-tools
+tmux
 nmap
 ncrack
 zip
 curl
+ssh
+sshfs
 p7zip-full
 chromium
+chromium-bsu
 wget
 dnsenum
 dnsmap
@@ -16,6 +21,7 @@ arp-scan
 netdiscover
 wireshark
 smbclient
+postgresql
 python3-ldap3
 python3-yaml
 python3-impacket
