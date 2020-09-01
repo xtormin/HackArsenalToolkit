@@ -1,5 +1,5 @@
-![GitHub Header](/images/hackarsenal.png)
-# Hacking Toolkit Arsenal Setup
+![HackArsenal Header](/images/hackarsenaltoolkit.png)
+# Hacking Arsenal Toolkit Setup
 
 Are you tired of install the same hacking tools in every system different of kali linux? This tool is for you xD
 
