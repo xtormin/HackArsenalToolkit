@@ -1,4 +1,4 @@
 securesocketfunneling/ssf,ssf-
-cytopia/pwncat,
+cytopia/pwncat,pwncat
 vivami/SauronEye,SauronEye
 AlessandroZ/LaZagne,lazagne
