@@ -7,6 +7,7 @@ tmux
 nmap
 ncrack
 zip
+tree
 curl
 ssh
 sshfs
@@ -15,11 +16,13 @@ chromium
 chromium-bsu
 wget
 dnsenum
+hydra
 dnsmap
 dnsrecon
 arp-scan
 netdiscover
 wireshark
+rdesktop
 smbclient
 postgresql
 python3-ldap3
