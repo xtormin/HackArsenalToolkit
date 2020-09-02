@@ -1,0 +1,443 @@
+[
+    {
+        "url": "https://github.com/cddmp/enum4linux-ng.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "smb",
+        "mode" : "active",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/LandGrey/pydictor.git",
+        "type" : "tool",
+        "phase" : "any",
+        "protocol" : "",
+        "mode" : "passive",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/sqlmapproject/sqlmap.git",
+        "type" : "tool",
+        "phase" : "explotation",
+        "protocol" : "http",
+        "mode" : "active",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/laramies/theHarvester.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "passive",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/bitsadmin/wesng.git",
+        "type" : "tool",
+        "phase" : "post-exploitation,privilege escalation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/rebootuser/LinEnum.git",
+        "type" : "tool",
+        "phase" : "post-exploitation,post-enumeration,privilege escalation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/rokups/virtual-reality.git",
+        "type" : "tool",
+        "phase" : "persistence,post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {    
+        "url": "https://github.com/cytopia/pwncat.git",
+        "type" : "tool",
+        "phase" : "enumeration,post-exploitation,lateral movement",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/PowerShellMafia/PowerSploit.git",
+        "type" : "tool",
+        "phase" : "post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        
+        "url": "https://github.com/sense-of-security/ADRecon.git",
+        "type" : "tool",
+        "phase" : "enumeration,post-enumeration,post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/vivami/SauronEye.git",
+        "type" : "tool",
+        "phase" : "enumeration,post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/outflanknl/RedELK.git",
+        "type" : "tool",
+        "phase" : "post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/n1nj4sec/pupy.git",
+        "type" : "tool",
+        "phase" : "post-exploitation,persistence",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/wpscanteam/wpscan.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "http",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/pentestmonkey/unix-privesc-check.git",
+        "type" : "tool",
+        "phase" : "post-enumeration,privilege escalation,post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    { 
+        "url": "https://github.com/hausec/ADAPE-Script.git",
+        "type" : "tool",
+        "phase" : "enumeration,post-enumeration,privilege escalation,post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/mostaphabahadou/postenum.git",
+        "type" : "tool",
+        "phase" : "enumeration,post-enumeration",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/SpiderLabs/Responder.git",
+        "type" : "tool",
+        "phase" : "enumeration,post-enumeration",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/GhostPack/Rubeus.git",
+        "type" : "tool",
+        "phase" : "post-exploitation,post-enumeration",
+        "protocol" : "kerberos",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/AlessandroZ/LaZagne.git",
+        "type" : "tool",
+        "phase" : "post-exploitation,post-enumeration",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/EmpireProject/Empire.git",
+        "type" : "tool",
+        "phase" : "post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/S3cur3Th1sSh1t/WinPwn.git",
+        "type" : "tool",
+        "phase" : "post-enumeration,post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/SimplySecurity/SimplyEmail.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "passive",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/Hackplayers/Salsa-tools.git",
+        "type" : "tool",
+        "phase" : "persistence",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/Kudaes/LOLBITS.git",
+        "type" : "tool",
+        "phase" : "persistence,C&C",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/sensepost/reGeorg.git",
+        "type" : "tool",
+        "phase" : "persistence",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/itm4n/PrivescCheck.git",
+        "type" : "tool",
+        "phase" : "privilege escalation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    { 
+        "url": "https://github.com/mzet-/linux-exploit-suggester.git",
+        "type" : "tool",
+        "phase" : "post-exploitation,privilege escalation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/nccgroup/GTFOBLookup.git",
+        "type" : "tool",
+        "phase" : "post-exploitation,privilege escalation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/ztgrace/changeme.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "http,https",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/InfosecMatter/default-http-login-hunter.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "http,https",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/FortyNorthSecurity/EyeWitness.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "http,https",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/Screetsec/TheFatRat.git",
+        "type" : "tool",
+        "phase" : "post-exploitation,persistence,C&C",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "av evasion"
+    },
+    {
+        "url": "https://github.com/paranoidninja/CarbonCopy.git",
+        "type" : "tool",
+        "phase" : "post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "av evasion"
+    },
+    {
+        "url": "https://github.com/Arvanaghi/CheckPlease.git",
+        "type" : "tool",
+        "phase" : "post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "sandbox evasion"
+    },
+    {
+        "url": "https://github.com/christophetd/spoofing-office-macro.git",
+        "type" : "tool",
+        "phase" : "exploitation,phishing,social engineering",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "malware"
+    },
+    {
+        "url": "https://github.com/infosecn1nja/MaliciousMacroMSBuild.git",
+        "type" : "tool",
+        "phase" : "exploitation,phishing,social engineering",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "malware"
+    },
+    {
+        "url": "https://github.com/outflanknl/EvilClippy.git",
+        "type" : "tool",
+        "phase" : "exploitation,phishing,social engineering",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/antonioCoco/Mapping-Injection.git",
+        "type" : "tool",
+        "phase" : "exploitation,phishing,social engineering",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "malware"
+    },
+    {
+        "url": "https://github.com/CCob/SharpBlock.git",
+        "type" : "tool",
+        "phase" : "exploitation,phishing,social engineering",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "malware,edr bypass,dll"
+    },
+    {
+        "url": "https://github.com/bats3c/Ghost-In-The-Logs.git",
+        "type" : "tool",
+        "phase" : "post-exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "log evasion,sysmon,windows event logging"
+    },
+    {
+        "url": "https://github.com/hasherezade/exe_to_dll.git",
+        "type" : "tool",
+        "phase" : "persistence",
+        "protocol" : "",
+        "mode" : "passive",
+        "tags" : "malware"
+    },
+    {
+        "url": "https://github.com/sensepost/kwetza.git",
+        "type" : "tool",
+        "phase" : "exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "android"
+    },
+    {
+        "url": "https://github.com/eldraco/domain_analyzer.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "http,https,dns",
+        "mode" : "active,passive",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/dafthack/PowerMeta.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "passive",
+        "tags" : "metadata"
+    },
+    {
+        "url": "https://github.com/pwnfoo/NTLMRecon.git",
+        "type" : "tool",
+        "phase" : "post-enumeration",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/hatlord/snmpwn.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "snmp",
+        "mode" : "",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/sensepost/xrdp.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "rdp,x11"
+    },
+    {
+        "url": "https://github.com/BusesCanFly/PRETty.git",
+        "type" : "tool",
+        "phase" : "enumeration,exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "printer"
+    },
+    {
+        "url": "https://github.com/quentinhardy/msdat.git",
+        "type" : "tool",
+        "phase" : "enumeration,exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "bd,mssql"
+    },
+    {
+        "url": "https://github.com/sensepost/SPartan.git",
+        "type" : "tool",
+        "phase" : "enumeration,exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "sharepoint"
+    },
+    {
+        "url": "https://github.com/sc0tfree/mentalist.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "passive",
+        "tags" : "wordlist,generator"
+    },
+    {
+        "url": "https://github.com/laconicwolf/Password-Scripts.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "passwords,wordlist,brute"
+    },
+    {
+        "url": "https://github.com/D4Vinci/One-Lin3r.git",
+        "type" : "tool",
+        "phase" : "",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "shell,one liner,"
+    },
+    {
+        "url": "https://github.com/swisskyrepo/SSRFmap.git",
+        "type" : "tool",
+        "phase" : "enumeration,exploitation",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "ssrf,web application,fuzzer"
+    }
+]
