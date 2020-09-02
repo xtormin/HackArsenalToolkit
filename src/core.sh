@@ -1,12 +1,21 @@
-source src/aux.sh
-source src/func.sh
-source src/custom_installers.sh
+source src/bashutils/cli.sh
+source src/bashutils/func.sh
+source src/bashutils/custom_installers.sh
 
+python_setup(){
+    ### UPDATE REPOSITORIES
+    echo "|+| Updating repositories"
+    sudo apt update
 
+    ### INSTALL PYTHON TO EXECUTE PARSER PROGRAM
+    sudo apt install python3 python3-pip
+
+    ### INSTALL REQUIREMENTS
+    sudo python3 -m pip install -r src/requirements.txt
+}
 
 main(){
-    banner
-
+    pwd
     ### INIT SCRIPT VARIABLES
     readonly SCRIPT_NAME="$(basename "$0")"
     readonly SCRIPT_PATH="$(dirname "$(readlink -f "$0")")"
@@ -20,7 +29,7 @@ main(){
     RELEASES_TMP="/tmp/releases_download"
     USERNAME=$(whoami)
 
-    GIT_TOOLS_LIST="$SCRIPT_PATH/tools/github.txt"
+    GIT_TOOLS_LIST="/tmp/github.txt"
     GIT_WORDLISTS_LIST="$SCRIPT_PATH/tools/wordlists.txt"
     RELEASES_LIST="$SCRIPT_PATH/tools/releases.txt"
     BINARIES_LIST="$SCRIPT_PATH/tools/binaries.txt"
@@ -28,20 +37,7 @@ main(){
     PACKAGES_ARRAY=$(cat $SCRIPT_PATH/tools/packages.txt | tr '\r\n' ' ') 
 
     ### ARGUMENTS
-	cli $ARGS    
-    
-    ### UPDATE REPOSITORIES
-    echo "|+| Updating repositories"
-    sudo apt update -y
-
-    ### CREATE TOOLS AND WORDLISTS FOLDERS
-    # Change folders owner and permissions
-    for path in $(echo $TOOLS_PATH $WORDLIST_PATH $BINARIES_PATH $RELEASES_PATH $RELEASES_TMP); do
-        echo "|+| Creating folder '$path'"
-        sudo mkdir $path
-        sudo chmod 755 $path
-        sudo chown -R $USERNAME:$USERNAME $path
-    done
+	cli $ARGS
 
     ### INSTALL PACKAGES
     install_packages "${PACKAGES_ARRAY}"
