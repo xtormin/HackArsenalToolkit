@@ -11,7 +11,7 @@ You could fork this project and custom your own arsenal too.
 
 > By default this is a hacking tools repo, but you can add any resource that you want.
 
-This create four main folder:
+This create four main folders:
 
 Directory            | Description
 ---------------------|------------
@@ -29,10 +29,12 @@ bash hackarsenal.sh
 ![Script execution](/images/script_execution.png)
 
 # TODO
-- [ ] Categorize tools and resources
+- [ ] Hacking tool and resources db categorized (in progress)
+- [ ] Integrate python power 8)
 - [ ] Add more tools, binaries and wordlists
 - [ ] Windows, arch, ... Toolkit Arsenal version
 - [ ] Clean and improve code (this is a little spaguetti xD)
+- [ ] Docker hackarsenal
 
 ### Do you want buy me a coffee? :metal:
 https://paypal.me/j4ckmln
