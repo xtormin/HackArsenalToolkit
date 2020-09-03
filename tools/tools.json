@@ -439,5 +439,21 @@
         "protocol" : "",
         "mode" : "",
         "tags" : "ssrf,web application,fuzzer"
+    },
+    {
+        "url": "https://github.com/NickstaDB/BaRMIe.git",
+        "type" : "tool",
+        "phase" : "enumeration,exploitation",
+        "protocol" : "http,java-rmi",
+        "mode" : "active",
+        "tags" : "rmi,web application"
+    },
+    {
+        "url": "https://github.com/BishopFox/rmiscout.git",
+        "type" : "tool",
+        "phase" : "enumeration,exploitation",
+        "protocol" : "http,java-rmi",
+        "mode" : "active",
+        "tags" : "rmi,web application"
     }
 ]
