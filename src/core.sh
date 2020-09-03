@@ -5,10 +5,10 @@ source src/bashutils/custom_installers.sh
 python_setup(){
     ### UPDATE REPOSITORIES
     echo "|+| Updating repositories"
-    sudo apt update
+    sudo apt update -y
 
     ### INSTALL PYTHON TO EXECUTE PARSER PROGRAM
-    sudo apt install python3 python3-pip
+    sudo apt install python3 python3-pip -y
 
     ### INSTALL REQUIREMENTS
     sudo python3 -m pip install -r src/requirements.txt
