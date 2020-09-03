@@ -24,7 +24,7 @@ Directory            | Description
 
 ## Install
 ```
-bash hackarsenal.sh
+sudo bash hackarsenal.sh
 ```
 ![Script execution](/images/script_execution.png)
 
