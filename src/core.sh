@@ -2,6 +2,13 @@ source src/bashutils/cli.sh
 source src/bashutils/func.sh
 source src/bashutils/custom_installers.sh
 
+check_root_priv(){
+    if [ whoami != "root" ]; then 
+        echo "Please run as root"
+        exit
+    fi
+}
+
 python_setup(){
     ### UPDATE REPOSITORIES
     echo "|+| Updating repositories"

@@ -6,6 +6,9 @@ source src/core.sh
 ### BANNER (I know, this is obvious xD)
 banner
 
+### Check root priv
+check_root_priv
+
 ### PYTHON SETUP
 python_setup
 
