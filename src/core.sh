@@ -3,7 +3,7 @@ source src/bashutils/func.sh
 source src/bashutils/custom_installers.sh
 
 check_root_priv(){
-    if [ whoami != "root" ]; then 
+    if [ "$EUID" -ne 0 ];then 
         echo "Please run as root"
         exit
     fi
