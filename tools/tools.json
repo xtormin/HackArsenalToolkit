@@ -425,7 +425,23 @@
         "tags" : "sharepoint"
     },
     {
+        "url": "https://github.com/Kan1shka9/Finger-User-Enumeration.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "finger",
+        "mode" : "active",
+        "tags" : "finger,usernames"
+    },
+    {
         "url": "https://github.com/sc0tfree/mentalist.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "passive",
+        "tags" : "wordlist,generator"
+    },
+    {
+        "url": "https://github.com/digininja/CeWL.git",
         "type" : "tool",
         "phase" : "enumeration",
         "protocol" : "",
