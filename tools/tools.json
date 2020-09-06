@@ -8,6 +8,22 @@
         "tags" : ""
     },
     {
+        "url": "https://github.com/TheRook/subbrute.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "dns",
+        "mode" : "active",
+        "tags" : "osint"
+    },
+    {
+        "url": "https://github.com/laramies/theHarvester.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "active",
+        "tags" : "osint,emails,names,subdomains,ips,urls"
+    },
+    {
         "url": "https://github.com/LandGrey/pydictor.git",
         "type" : "tool",
         "phase" : "any",
