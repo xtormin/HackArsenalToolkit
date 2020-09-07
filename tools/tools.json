@@ -113,6 +113,38 @@
         "tags" : ""
     },
     {
+        "url": "https://github.com/sullo/nikto.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "http,https",
+        "mode" : "active",
+        "tags" : ""
+    },
+    {
+        "url": "https://github.com/thewhiteh4t/pwnedOrNot.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "pasive",
+        "tags" : "leaks,credentials,passwords,osint"
+    },
+    {
+        "url": "https://github.com/davidtavarez/pwndb.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "leaks,credentials,passwords,osint,tor"
+    },
+    {
+        "url": "https://github.com/harleo/knockknock.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "dns",
+        "mode" : "pasive",
+        "tags" : "reverse lookup,osint"
+    },
+    {
         "url": "https://github.com/n1nj4sec/pupy.git",
         "type" : "tool",
         "phase" : "post-exploitation,persistence",
