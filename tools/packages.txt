@@ -11,6 +11,7 @@ tree
 curl
 ssh
 sshfs
+curlftpfs
 p7zip-full
 chromium
 chromium-bsu

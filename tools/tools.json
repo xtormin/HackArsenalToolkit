@@ -105,6 +105,30 @@
         "tags" : ""
     },
     {
+        "url": "https://github.com/Tuhinshubhra/CMSeeK.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "active",
+        "tags" : "cms,wordpress,joomla,drupal"
+    },
+    {
+        "url": "https://github.com/sensepost/reGeorg.git",
+        "type" : "tool",
+        "phase" : "pivoting,persistence,post-exploitation",
+        "protocol" : "http",
+        "mode" : "active",
+        "tags" : "tunnel,http"
+    },  
+    {
+        "url": "https://github.com/securesocketfunneling/ssf.git",
+        "type" : "tool",
+        "phase" : "pivoting,persistence,post-exploitation",
+        "protocol" : "http",
+        "mode" : "active",
+        "tags" : "tunnel,http"
+    },      
+    {
         "url": "https://github.com/outflanknl/RedELK.git",
         "type" : "tool",
         "phase" : "post-exploitation",
