@@ -30,7 +30,6 @@ sudo bash hackarsenal.sh
 
 # TODO
 - [ ] Hacking tool and resources db categorized (in progress)
-- [ ] Integrate python power 8)
 - [ ] Add more tools, binaries and wordlists
 - [ ] Windows, arch, ... Toolkit Arsenal version
 - [ ] Clean and improve code (this is a little spaguetti xD)
