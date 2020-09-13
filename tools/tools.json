@@ -8,6 +8,14 @@
         "tags" : ""
     },
     {
+        "url": "https://github.com/ShawnDEvans/smbmap.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "smb",
+        "mode" : "active",
+        "tags" : ""
+    },
+    {
         "url": "https://github.com/TheRook/subbrute.git",
         "type" : "tool",
         "phase" : "enumeration",
