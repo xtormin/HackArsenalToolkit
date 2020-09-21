@@ -441,6 +441,14 @@
         "tags" : "metadata"
     },
     {
+        "url": "https://github.com/laramies/metagoofil.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "passive",
+        "tags" : "metadata"
+    },
+    {
         "url": "https://github.com/pwnfoo/NTLMRecon.git",
         "type" : "tool",
         "phase" : "post-enumeration",
@@ -527,6 +535,22 @@
         "protocol" : "",
         "mode" : "",
         "tags" : "shell,one liner,"
+    },
+    {
+        "url": "https://github.com/xmendez/wfuzz.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "",
+        "mode" : "",
+        "tags" : "web application,fuzzer"
+    },
+    {
+        "url": "https://github.com/maurosoria/dirsearch.git",
+        "type" : "tool",
+        "phase" : "enumeration",
+        "protocol" : "http",
+        "mode" : "",
+        "tags" : "web application,discover directory"
     },
     {
         "url": "https://github.com/swisskyrepo/SSRFmap.git",
